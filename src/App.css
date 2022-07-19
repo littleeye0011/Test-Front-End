@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  background-color: rgb(80, 90, 110);
+  color: white;
+  margin: 0;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.navbar a,
+ul {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  text-align: center;
+  margin: 1rem 2rem;
+  font-size: 23px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+}
+
+li:hover,
+a:hover {
+  transform: scale(1.1);
+  color: green;
+}
+li:active,
+a:active {
+  transform: scale(0.9);
+  color: red;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+h4 {
+  width: 275px;
+  text-align: left;
+}
